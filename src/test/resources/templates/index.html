@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function myFunc() {
+            result = prompt("PROMPT");
+            alert(result);
+        }
+    </script>
+
+    <div>
+        <a id="a" onclick="alert('Hello, I am Alert!')" href="#">Link 1</a>
+        <a id="b" onclick="myFunc()" href="#">Link 2</a>
+        <a id="c" onclick="confirm('Hello, I am confirm!')" href="#">Link 3</a>
+    </div>
+
+    <br>
+
+    <div>
+        <input id="d" type="file" id="avatar" name="avatar" style="display: none; height: 0px; width: 0px;">
+    </div>
+
+</body>
+
+</html>
